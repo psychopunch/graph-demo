@@ -13,6 +13,6 @@ This application was built (and tested) using Gradle 2.9. Since no executables a
 ### Execution
 With Gradle successfully set up, the application can be executed using the following command:
 
-    gradle run -Dgraph.file=graph.txt -q
+    gradle run -Dgraph.file=graph.dat -q
 
-where `graph.txt` is the input file that describes the Graph. The `-q` option hides the build information texts displayed normally by Gradle.
+where `graph.dat` is the input file that describes the Graph. The `-q` option hides the build information texts displayed normally by Gradle. This project contains a sample graph file named `graph.dat` in root directory.
